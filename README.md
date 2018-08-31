@@ -1,6 +1,6 @@
 # Prerequisites and how to use it
 
-1. Install Java 10. If you have Java 8 then you might want to change a configuration in pom.xml
+1. Install Java 10. If you have Java 8  and Maven 3.5.1 then you might want to change a configuration in pom.xml
 
 Java 8 
 
