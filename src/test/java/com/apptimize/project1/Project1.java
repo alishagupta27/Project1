@@ -21,8 +21,8 @@ WebDriver driver;
 	//Open Browser
 	@BeforeSuite
 	public void openBrowser() {
-		//Path path = FileSystems.getDefault().getPath("src/test/resources/geckodriver-v0.21.0-macos/geckodriver");
-		Path path = FileSystems.getDefault().getPath("src/test/resources/geckodriver/geckodriver.exe");
+		Path path = FileSystems.getDefault().getPath("src/test/resources/geckodriver-v0.21.0-macos/geckodriver");
+		//Path path = FileSystems.getDefault().getPath("src/test/resources/geckodriver/geckodriver.exe");
 		System.setProperty("webdriver.gecko.driver",path.toString());
 		driver=new FirefoxDriver();
 	}
@@ -41,7 +41,7 @@ WebDriver driver;
 		Object[][] data=new Object[1][5];
 		data[0][0]="Alisha";
 		data[0][1]="Gupta";
-		data[0][2]="golmushopp.i.ng@gmail.com";
+		data[0][2]="golmushoppi.n.g@gmail.com";
 		data[0][3]="Apptimize Candidate";
 		data[0][4]="password01";
 		return data;
