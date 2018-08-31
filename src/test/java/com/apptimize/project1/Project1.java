@@ -41,7 +41,7 @@ WebDriver driver;
 		Object[][] data=new Object[1][5];
 		data[0][0]="Alisha";
 		data[0][1]="Gupta";
-		data[0][2]="golmushoppi.n.g@gmail.com";
+		data[0][2]="alisha.apptimizetest@gmail.com";
 		data[0][3]="Apptimize Candidate";
 		data[0][4]="password01";
 		return data;
